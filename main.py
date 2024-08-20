@@ -7,7 +7,7 @@ if __name__ == "__main__":
     # pygame setup
     import pygame
     pygame.init()
-    canvas = pygame.display.set_mode((500, 500))
+    canvas = pygame.display.set_mode((1280, 720))
     pygame.display.set_caption("Mini-Word")
     
     # main loop
