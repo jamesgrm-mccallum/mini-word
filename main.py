@@ -19,7 +19,7 @@ if __name__ == "__main__":
     frm = ttk.Frame(root, padding=10)
     frm.grid()
     ttk.Button(frm, text="Quit", command=root.destroy).grid(column=0, row=0)
-    textbox = Text(root, height = 842, width = 595, font = ('Arial', 16)).grid(column=1,row=1)
+    textbox = Text(root, height = 52, width = 52, font = ('Arial', 16)).grid(column=1,row=1)
 
     
     while True:
